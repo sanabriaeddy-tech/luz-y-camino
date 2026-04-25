@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="192" height="192">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1C1710"/>
+      <stop offset="100%" stop-color="#0C0A06"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cross" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EBD9"/>
+      <stop offset="40%" stop-color="#E8C97A"/>
+      <stop offset="100%" stop-color="#8B6508"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="110" ry="110" fill="url(#bg)"/>
+  <ellipse cx="256" cy="210" rx="190" ry="170" fill="url(#glow)"/>
+  <g opacity="0.12" transform="translate(256,220)">
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(0)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(22.5)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(45)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(67.5)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(90)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(112.5)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(135)"/>
+    <rect x="-2.5" y="-190" width="5" height="190" rx="2.5" fill="#E8C97A" transform="rotate(157.5)"/>
+  </g>
+  <rect x="237" y="108" width="38" height="238" rx="9" fill="url(#cross)"/>
+  <rect x="148" y="187" width="216" height="38" rx="9" fill="url(#cross)"/>
+  <circle cx="256" cy="206" r="18" fill="#F2EBD9" opacity="0.12"/>
+  <circle cx="256" cy="206" r="8" fill="#F2EBD9" opacity="0.3"/>
+  <text x="256" y="406" font-family="Georgia,serif" font-size="34" font-weight="400"
+        fill="#C9A84C" text-anchor="middle" letter-spacing="1.5">Luz y Camino</text>
+  <text x="256" y="436" font-family="Arial,sans-serif" font-size="17" font-weight="300"
+        fill="#6B5F44" text-anchor="middle" letter-spacing="3">ESTUDIO BÍBLICO</text>
+  <line x1="176" y1="450" x2="336" y2="450" stroke="#C9A84C" stroke-width="0.8" opacity="0.4"/>
+</svg>
